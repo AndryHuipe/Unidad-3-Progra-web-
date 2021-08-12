@@ -1,0 +1,16 @@
+
+<HTML>
+	<cabeza>
+		<Guión>
+			función saludar(){
+				alert('Hola Mundo!!!');
+				documento. getElementById("demo"). innerHTML = "Párrafo cambiado";
+			}
+		</Guión>
+	</cabeza>
+	<cuerpo>
+		<h1>Mi primer Página con JS</h1>
+		<botón onclick="saludar();" > Presionar</botón>
+		<p id="demo">Un parrafo</p>
+	</cuerpo>
+</HTML>
